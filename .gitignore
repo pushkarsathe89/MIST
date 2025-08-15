@@ -1,32 +1,89 @@
-*.dat
-*.class
-__pychache__
-*.pyc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# jekyll files
-_site/
+# C extensions
+*.so
 
-# LaTex generated files
-doc/*.aux
-doc/*.bbl
-doc/*.blg
-doc/*.log
-doc/*.out
-doc/*.pdf
-doc/*.synctex.gz
-doc/*.toc
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Intellij Folders
-out
-target
+# PyInstaller
+*.manifest
+*.spec
 
-# User-specific IntlliJ workspace:
-.idea/workspace.xml
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Eclipse files
-.settings/
-.project
-.classpath
 
-# macOS files
-**/.DS_Store
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+Small_Phase_Test_Dataset*
+Small_Fluorescent_Test_Dataset*
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
