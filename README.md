@@ -1,7 +1,7 @@
 # MIST - Microscopy Image Stitching Tool
 
-[![PyPI version](https://badge.fury.io/py/mist.svg)](https://badge.fury.io/py/mist)
-[![License](https://img.shields.io/badge/License-Public%20Domain-blue.svg)](https://github.com/usnistgov/MIST/blob/master/LICENSE.txt)
+[![PyPI version](https://badge.fury.io/py/mist_stitching.svg)](https://badge.fury.io/py/mist_stitching)
+[![License](https://img.shields.io/badge/License-Public%20Domain-blue.svg)](./LICENSE)
 
 **MIST** (Microscopy Image Stitching Tool) is a high-performance Python library for stitching 2D microscopy image datasets. Developed at the National Institute of Standards and Technology, MIST provides accurate and scalable image stitching with stage modeling and error minimization.
 
