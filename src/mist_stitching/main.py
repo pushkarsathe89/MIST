@@ -23,11 +23,6 @@ from . import utils
 
 
 def mist(args: argparse.Namespace):
-    if utils.is_ide_debug_mode():
-        logging.info("IDE in debug mode, automatic output overwriting enabled.")
-        if os.path.exists(args.output_dirpath):
-            import shutil
-            shutil.rmtree(args.output_dirpath)
 
     if os.path.exists(args.output_dirpath):
         raise RuntimeError("Output directory already exists: {}".format(args.output_dirpath))
